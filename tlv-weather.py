@@ -21,7 +21,7 @@ if x["cod"] != "404":
     weather_description = z[0]["description"]
 
     # print following values 
-    print(" Temperature (in kelvin unit) = " +
+    print(" Temperature = " +
           str(Celsius) +
           "\n description = " +
           str(weather_description))
